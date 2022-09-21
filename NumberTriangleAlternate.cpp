@@ -1,7 +1,14 @@
+/*
+Pattern-
+        1
+        3 2 1
+        4 3 2 1
+*/
+
 #include<iostream>
 using namespace std;
 
-
+// Approach 1 - traversing columns in decreasing order 
 int main(){
 
     int n;
@@ -19,6 +26,8 @@ int main(){
     }
     
 }
+
+// Approach 2- using extra variable
 
 // int main(){
 
